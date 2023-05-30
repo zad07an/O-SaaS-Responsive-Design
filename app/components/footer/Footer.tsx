@@ -8,8 +8,12 @@ const Footer: React.FC = () => {
   return (
     <footer className=" w-full px-5 md:px-20 py-10 flex items-center flex-col border-t border-gray-400">
       <div className=" w-full text-start">
-        <Link href="/">
+        <Link href="/" className=" w-fit flex items-center gap-2">
           <div className=" w-8 h-8 border-[7px] border-gray-600 bg-transparent rounded-full"></div>
+          <span className=" text-gray-400 font-semibold text-lg border-b-2 border-[#BF69D5]">
+            {" "}
+            O-SaaS
+          </span>
         </Link>
       </div>
       <div className=" w-full grid md:grid-cols-3 gap-8 mt-8">
